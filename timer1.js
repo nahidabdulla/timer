@@ -1,3 +1,6 @@
+/* takes in number in seconds from the command line and beeps after specified 
+amount of time has passed*/
+
 const timer = function() {
   const args = process.argv.slice(2);
   console.log(args);
